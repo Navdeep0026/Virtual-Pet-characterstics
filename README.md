@@ -1,15 +1,28 @@
-# Virtual Pet characterstics
-Pet Creation: You'll be prompted to choose a pet type (e.g., cat, dog, rabbit) and enter a name for your pet.
-Main Interaction Loop: Once your pet is created, you'll enter the main interaction loop. Here, you can choose from the following options:
-Feed the pet: Decrease hunger and increase health.
-Play with the pet: Increase happiness and hunger.
-Let the pet rest: Increase health and decrease happiness.
-Check pet's status: Display the current status of your pet, including its name, type, hunger level, happiness level, and health level.
-Exit: End the game.
+# Virtual Pet Game
 
-Compile: Compile the provided C# code using your preferred C# compiler.
-Run: Execute the compiled program. Follow the on-screen instructions to interact with your virtual pet.
+## Project Description
+The Virtual Pet Game is a console-based application written in C#. In this game, users can create and interact with a virtual pet by feeding it, playing with it, letting it rest, or checking its status. The game is designed to help users understand basic object-oriented programming concepts by defining a pet class with various properties and methods.
 
-Code Overview
-Pet Class: Defines the properties and behaviors of a pet, including its type, name, hunger, happiness, and health levels. It also includes methods for feeding, playing, letting the pet rest, and displaying its status.
-Main Class (Program): Contains the main method to run the game. It initializes the pet, displays the main menu, handles user input, and executes corresponding actions based on the user's choice.
+## Features
+- Choose a pet type (e.g., cat, dog, rabbit) and name your pet.
+- Feed the pet to decrease hunger and increase health.
+- Play with the pet to increase happiness and hunger.
+- Let the pet rest to increase health and decrease happiness.
+- Check the pet's status to see its current hunger, happiness, and health levels.
+- Exit the game at any time.
+
+## Setup Instructions
+
+### Prerequisites
+- [.NET SDK](https://dotnet.microsoft.com/download) installed on your machine.
+
+### Steps to Run the Program
+
+1. **Clone the Repository**
+   ```sh
+   git clone https://github.com/your-username/virtual-pet-game.git
+   cd virtual-pet-game
+   2. dotnet build
+   3. dotnet run
+   4. Follow the On-Screen Instructions
+You will be prompted to choose a pet type and name your pet. Then, you will enter the main interaction loop where you can choose to feed the pet, play with the pet, let the pet rest, check the pet's status, or exit the game.
