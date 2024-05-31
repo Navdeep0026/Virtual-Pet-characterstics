@@ -26,3 +26,21 @@ The Virtual Pet Game is a console-based application written in C#. In this game,
    3. dotnet run
    4. Follow the On-Screen Instructions
 You will be prompted to choose a pet type and name your pet. Then, you will enter the main interaction loop where you can choose to feed the pet, play with the pet, let the pet rest, check the pet's status, or exit the game.
+
+
+Code Overview
+Pet Class
+Defines the properties and behaviors of a pet, including its type, name, hunger, happiness, and health levels. It includes methods for:
+
+Feeding the pet (Feed)
+Playing with the pet (Play)
+Letting the pet rest (Rest)
+Displaying the pet's status (ShowStatus)
+Main Class (Program)
+Contains the main method that runs the game. It:
+
+Initializes the pet based on user input
+Displays the main menu
+Handles user input
+Executes corresponding actions based on the user's choice
+
